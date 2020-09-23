@@ -1,0 +1,957 @@
+<html>
+  <head>
+    <title> TypeLibrary Voor Bestand: shdocvw.dll</title>
+  </head>
+  <style>
+    h1      {font: 24pt Comic Sans MS; font-weight: bold;}
+    th      {font: 14pt Comic Sans MS; font-weight: normal;}
+    td      {font: 12pt Courier;       font-weight: bold; font-style: normal;}
+    .rood   {color: red; bgcolor: blue;}
+    .groen  {color: green;}
+    .blauw  {color: blue;}
+    .olijf  {color: '#8080800';}
+    .objtag {color: red; background: blue;    font-weight: bold;}
+  </style>
+  <center>
+  <body bgcolor='#F8F8FF'>
+    <h1><pre>	<u>shdocvw.dll</u></pre></h1>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        CommandStateChangeConstants
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Const </i>CSC_NAVIGATEBACK = 2	</td><td>Navigate Back	</td></tr>
+        <tr><td><i class="blauw">Const </i>CSC_NAVIGATEFORWARD = 1	</td><td>Navigate Forward	</td></tr>
+        <tr><td><i class="blauw">Const </i>CSC_UPDATECOMMANDS = -1 (&HFFFFFFFF)	</td><td>Command Change	</td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        CScriptErrorList
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Sub </i>advanceError	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>retreatError	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>setDetailsPaneOpen(<i class="olijf">ByVal </i>fDetailsPaneOpen <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>setPerErrorDisplay(<i class="olijf">ByVal </i>fPerErrorDisplay <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Function </i>canAdvanceError <i class="blauw">As</i> <i class="groen">Long</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Function </i>canRetreatError <i class="blauw">As</i> <i class="groen">Long</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Function </i>getAlwaysShowLockState <i class="blauw">As</i> <i class="groen">Long</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Function </i>getDetailsPaneOpen <i class="blauw">As</i> <i class="groen">Long</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Function </i>getErrorChar <i class="blauw">As</i> <i class="groen">Long</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Function </i>getErrorCode <i class="blauw">As</i> <i class="groen">Long</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Function </i>getErrorLine <i class="blauw">As</i> <i class="groen">Long</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Function </i>getErrorMsg <i class="blauw">As</i> <i class="groen">String</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Function </i>getErrorUrl <i class="blauw">As</i> <i class="groen">String</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Function </i>getPerErrorDisplay <i class="blauw">As</i> <i class="groen">Long</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        InternetExplorer
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Property </i>AddressBar <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Controls whether address bar is shown	</td></tr>
+        <tr><td><i class="blauw">Property </i>Application <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Returns the application automation object if accessible, this automation object otherwise..	</td></tr>
+        <tr><td><i class="blauw">Property </i>Busy <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Query to see if something is still in progress.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Container <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Returns the container/parent automation object, if any.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Document <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Returns the active Document automation object, if any.	</td></tr>
+        <tr><td><i class="blauw">Property </i>FullName <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Returns file specification of the application, including path.	</td></tr>
+        <tr><td><i class="blauw">Property </i>FullScreen <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Maximizes window and turns off statusbar, toolbar, menubar, and titlebar.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Height <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>The vertical dimension (pixels) of the frame window/object.	</td></tr>
+        <tr><td><i class="blauw">Property </i>HWND <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>Returns the HWND of the current IE window.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Left <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>The horizontal position (pixels) of the frame window relative to the screen/container.	</td></tr>
+        <tr><td><i class="blauw">Property </i>LocationName <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Gets the short (UI-friendly) name of the URL/file currently viewed.	</td></tr>
+        <tr><td><i class="blauw">Property </i>LocationURL <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Gets the full URL/path currently viewed.	</td></tr>
+        <tr><td><i class="blauw">Property </i>MenuBar <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Controls whether menubar is shown.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Name <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Returns name of the application.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Offline <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Controls if the frame is offline (read from cache)	</td></tr>
+        <tr><td><i class="blauw">Property </i>Parent <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Returns the automation object of the container/parent if one exists or this automation object.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Path <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Returns the path to the application.	</td></tr>
+        <tr><td><i class="blauw">Property </i>ReadyState <i class="blauw">As</i> <i class="objtag">tagREADYSTATE	</i></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Property </i>Register<i class="blauw">As</i>Browser <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Registers OC as a top-level browser (for target name resolution)	</td></tr>
+        <tr><td><i class="blauw">Property </i>Register<i class="blauw">As</i>DropTarget <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Registers OC as a drop target for navigation	</td></tr>
+        <tr><td><i class="blauw">Property </i>Resizable <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Controls whether the window is resizable	</td></tr>
+        <tr><td><i class="blauw">Property </i>Silent <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Controls if any dialog boxes can be shown	</td></tr>
+        <tr><td><i class="blauw">Property </i>StatusBar <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Turn on or off the statusbar.	</td></tr>
+        <tr><td><i class="blauw">Property </i>StatusText <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Text of Status window.	</td></tr>
+        <tr><td><i class="blauw">Property </i>TheaterMode <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Controls if the browser is in theater mode	</td></tr>
+        <tr><td><i class="blauw">Property </i>ToolBar <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>Controls which toolbar is shown.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Top <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>The vertical position (pixels) of the frame window relative to the screen/container.	</td></tr>
+        <tr><td><i class="blauw">Property </i>TopLevelContainer <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Returns True if this is the top level object.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Type <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Returns the type of the contained document object.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Visible <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Determines whether the application is visible or hidden.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Width <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>The horizontal dimension (pixels) of the frame window/object.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>ClientToWindow(pcx <i class="blauw">As</i> <i class="groen">Long</i>,
+		 pcy <i class="blauw">As</i> <i class="groen">Long</i>)	</pre></td><td>Converts client sizes into window sizes.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>ExecWB(<i class="olijf">ByVal </i>cmdID <i class="blauw">As</i> <i class="objtag"> OLECMDID,
+		</i> <i class="olijf">ByVal </i>cmdexecopt <i class="blauw">As</i> <i class="objtag"> OLECMDEXECOPT,
+		</i> [pvaIn],
+		 [pvaOut])	</pre></td><td>IOleCommandTarget::Exec	</td></tr>
+        <tr><td><i class="blauw">Sub </i>GoBack	</td><td>Navigates to the previous item in the history list.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>GoForward	</td><td>Navigates to the next item in the history list.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>GoHome	</td><td>Go home/start page.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>GoSearch	</td><td>Go Search Page.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>Navigate(<i class="olijf">ByVal </i>URL <i class="blauw">As</i> <i class="groen">String</i>,
+		 [Flags],
+		 [TargetFrameName],
+		 [PostData],
+		 [Headers])	</pre></td><td>Navigates to a URL or file.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>Navigate2(URL,
+		 [Flags],
+		 [TargetFrameName],
+		 [PostData],
+		 [Headers])	</pre></td><td>Navigates to a URL or file or pidl.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>PutProperty(<i class="olijf">ByVal </i><i class="blauw">Property </i><i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>vtValue)	</pre></td><td>Associates vtValue with the name szProperty in the context of the object.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Quit	</td><td>Exits application and closes the open document.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Refresh	</td><td>Refresh the currently viewed page.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Refresh2([Level])	</td><td>Refresh the currently viewed page.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>ShowBrowserBar(pvaClsid,
+		 [pvarShow],
+		 [pvarSize])	</pre></td><td>Set BrowserBar to Clsid	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Stop	</td><td>Stops opening a file.	</td></tr>
+        <tr><td><i class="blauw">Function </i>GetProperty(<i class="olijf">ByVal </i><i class="blauw">Property </i><i class="blauw">As</i> <i class="groen">String</i>)	</td><td>Retrieve the Associated value for the property vtValue in the context of the object.	</td></tr>
+        <tr><td><i class="blauw">Function </i>QueryStatusWB(<i class="olijf">ByVal </i>cmdID <i class="blauw">As</i> <i class="objtag"> OLECMDID)</i> <i class="blauw">As</i> <i class="objtag">OLECMDF	</i></td><td>IOleCommandTarget::QueryStatus	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>BeforeNavigate2(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag"> Object,
+		</i> URL,
+		 Flags,
+		 TargetFrameName,
+		 PostData,
+		 Headers,
+		 Cancel <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>Fired before navigate occurs in the given WebBrowser (window or frameset element). The processing of this navigation may be modified.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>ClientToHostWindow(CX <i class="blauw">As</i> <i class="groen">Long</i>,
+		 CY <i class="blauw">As</i> <i class="groen">Long</i>)	</pre></td><td>Fired to request client sizes be converted to host window sizes	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>CommandStateChange(<i class="olijf">ByVal </i>Command <i class="blauw">As</i> <i class="groen">Long</i>,
+		 <i class="olijf">ByVal </i>Enable <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>The enabled state of a command changed.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>DocumentComplete(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag"> Object,
+		</i> URL)	</pre></td><td>Fired when the document being navigated to reaches ReadyState_Complete.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>DownloadBegin	</td><td>Download of a page started.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>DownloadComplete	</td><td>Download of page complete.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>FileDownload(Cancel <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired to indicate the File Download dialog is opening	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>NavigateComplete2(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag"> Object,
+		</i> URL)	</pre></td><td>Fired when the document being navigated to becomes visible and enters the navigation stack.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>NavigateError(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag"> Object,
+		</i> URL,
+		 Frame,
+		 StatusCode,
+		 Cancel <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>Fired when a binding error occurs (window or frameset element).	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>NewWindow2(ppDisp <i class="blauw">As</i> <i class="objtag"> Object,
+		</i> Cancel <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>A new, hidden, non-navigated WebBrowser window is needed.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnFullScreen(<i class="olijf">ByVal </i>FullScreen <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when fullscreen mode should be on/off	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnMenuBar(<i class="olijf">ByVal </i>MenuBar <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when the menubar should be shown/hidden	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnQuit	</td><td>Fired when application is quiting.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnStatusBar(<i class="olijf">ByVal </i>StatusBar <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when the statusbar should be shown/hidden	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnTheaterMode(<i class="olijf">ByVal </i>TheaterMode <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when theater mode should be on/off	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnToolBar(<i class="olijf">ByVal </i>ToolBar <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when the toolbar  should be shown/hidden	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnVisible(<i class="olijf">ByVal </i>Visible <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when the window should be shown/hidden	</td></tr>
+        <tr><td><i class="blauw">Sub </i>PrintTemplateInstantiation(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag">Object)	</i></td><td>Fired when a print template is instantiated.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>PrintTemplateTeardown(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag">Object)	</i></td><td>Fired when a print template destroyed.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>PrivacyImpactedStateChange(<i class="olijf">ByVal </i>bImpacted <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when the global privacy impacted state changes	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>ProgressChange(<i class="olijf">ByVal </i>Progress <i class="blauw">As</i> <i class="groen">Long</i>,
+		 <i class="olijf">ByVal </i>ProgressMax <i class="blauw">As</i> <i class="groen">Long</i>)	</pre></td><td>Fired when download progress is updated.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>PropertyChange(<i class="olijf">ByVal </i>sz<i class="blauw">Property </i><i class="blauw">As</i> <i class="groen">String</i>)	</td><td>Fired when the PutProperty method has been called.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>SetSecureLockIcon(<i class="olijf">ByVal </i>SecureLockIcon <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td>Fired to indicate the security level of the current web page contents	</td></tr>
+        <tr><td><i class="blauw">Sub </i>StatusTextChange(<i class="olijf">ByVal </i>Text <i class="blauw">As</i> <i class="groen">String</i>)	</td><td>Statusbar text changed.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>TitleChange(<i class="olijf">ByVal </i>Text <i class="blauw">As</i> <i class="groen">String</i>)	</td><td>Document title changed.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>UpdatePageStatus(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag"> Object,
+		</i> nPage,
+		 fDone)	</pre></td><td>Fired when a page is spooled. When it is fired can be changed by a custom template.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>WindowClosing(<i class="olijf">ByVal </i>IsChildWindow <i class="blauw">As</i> <i class="groen">Boolean</i>,
+		 Cancel <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>Fired when the WebBrowser is about to be closed by script	</td></tr>
+        <tr><td><i class="blauw">Sub </i>WindowSetHeight(<i class="olijf">ByVal </i>Height <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td>Fired when the host window should change its height	</td></tr>
+        <tr><td><i class="blauw">Sub </i>WindowSetLeft(<i class="olijf">ByVal </i>Left <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td>Fired when the host window should change its Left coordinate	</td></tr>
+        <tr><td><i class="blauw">Sub </i>WindowSetResizable(<i class="olijf">ByVal </i>Resizable <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when the host window should allow/disallow resizing	</td></tr>
+        <tr><td><i class="blauw">Sub </i>WindowSetTop(<i class="olijf">ByVal </i>Top <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td>Fired when the host window should change its Top coordinate	</td></tr>
+        <tr><td><i class="blauw">Sub </i>WindowSetWidth(<i class="olijf">ByVal </i>Width <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td>Fired when the host window should change its width	</td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        ISearch
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Property </i>Id <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Get search guid	</td></tr>
+        <tr><td><i class="blauw">Property </i>Title <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Get search title	</td></tr>
+        <tr><td><i class="blauw">Property </i>URL <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Get search url	</td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        ISearchAssistantOC
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Property </i>ASProvider <i class="blauw">As</i> <i class="groen">String</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Property </i>ASSetting <i class="blauw">As</i> <i class="groen">Long</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Property </i>EventHandled <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Property </i>InWebFolder <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Returns true if the current folder is web folder	</td></tr>
+        <tr><td><i class="blauw">Property </i>Search<i class="blauw">As</i>sistantDefault <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>property SearchAssistantDefault	</td></tr>
+        <tr><td><i class="blauw">Property </i>Searches <i class="blauw">As</i> <i class="objtag">ISearches	</i></td><td>Get searches	</td></tr>
+        <tr><td><i class="blauw">Property </i>ShellFeaturesEnabled <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>property ShellFeaturesEnabled	</td></tr>
+        <tr><td><i class="blauw">Property </i>Version <i class="blauw">As</i> <i class="groen">Long</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>AddNextMenuItem(<i class="olijf">ByVal </i>bstrText <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>idItem <i class="blauw">As</i> <i class="groen">Long</i>)	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>FindComputer	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>FindFilesOrFolders	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>FindOnWeb	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>FindPeople	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>FindPrinter	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>NavigateToDefaultSearch	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>NETDetectNextNavigate	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>NotifySearchSettingsChanged	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>PutFindText(<i class="olijf">ByVal </i>FindText <i class="blauw">As</i> <i class="groen">String</i>)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>PutProperty(<i class="olijf">ByVal </i>bPerLocale <i class="blauw">As</i> <i class="groen">Boolean</i>,
+		 <i class="olijf">ByVal </i>bstrName <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>bstrValue <i class="blauw">As</i> <i class="groen">String</i>)	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>ResetNextMenu	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>SetDefaultSearchUrl(<i class="olijf">ByVal </i>bstrUrl <i class="blauw">As</i> <i class="groen">String</i>)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Function </i>EncodeString(<i class="olijf">ByVal </i>bstrValue <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>bstrCharSet <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>bUseUTF8 <i class="blauw">As</i> <i class="groen">Boolean</i>) <i class="blauw">As</i> <i class="groen">String</i>	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Function </i>GetProperty(<i class="olijf">ByVal </i>bPerLocale <i class="blauw">As</i> <i class="groen">Boolean</i>,
+		 <i class="olijf">ByVal </i>bstrName <i class="blauw">As</i> <i class="groen">String</i>) <i class="blauw">As</i> <i class="groen">String</i>	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Function </i>GetSearch<i class="blauw">As</i>sistantURL(<i class="olijf">ByVal </i>bSubstitute <i class="blauw">As</i> <i class="groen">Boolean</i>,
+		 <i class="olijf">ByVal </i>bCustomize <i class="blauw">As</i> <i class="groen">Boolean</i>) <i class="blauw">As</i> <i class="groen">String</i>	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Function </i>IsRestricted(<i class="olijf">ByVal </i>bstrGuid <i class="blauw">As</i> <i class="groen">String</i>) <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        ISearchAssistantOC2
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Property </i>ASProvider <i class="blauw">As</i> <i class="groen">String</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Property </i>ASSetting <i class="blauw">As</i> <i class="groen">Long</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Property </i>EventHandled <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Property </i>InWebFolder <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Returns true if the current folder is web folder	</td></tr>
+        <tr><td><i class="blauw">Property </i>Search<i class="blauw">As</i>sistantDefault <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>property SearchAssistantDefault	</td></tr>
+        <tr><td><i class="blauw">Property </i>Searches <i class="blauw">As</i> <i class="objtag">ISearches	</i></td><td>Get searches	</td></tr>
+        <tr><td><i class="blauw">Property </i>ShellFeaturesEnabled <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>property ShellFeaturesEnabled	</td></tr>
+        <tr><td><i class="blauw">Property </i>ShowFindPrinter <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Property </i>Version <i class="blauw">As</i> <i class="groen">Long</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>AddNextMenuItem(<i class="olijf">ByVal </i>bstrText <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>idItem <i class="blauw">As</i> <i class="groen">Long</i>)	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>FindComputer	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>FindFilesOrFolders	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>FindOnWeb	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>FindPeople	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>FindPrinter	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>NavigateToDefaultSearch	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>NETDetectNextNavigate	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>NotifySearchSettingsChanged	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>PutFindText(<i class="olijf">ByVal </i>FindText <i class="blauw">As</i> <i class="groen">String</i>)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>PutProperty(<i class="olijf">ByVal </i>bPerLocale <i class="blauw">As</i> <i class="groen">Boolean</i>,
+		 <i class="olijf">ByVal </i>bstrName <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>bstrValue <i class="blauw">As</i> <i class="groen">String</i>)	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>ResetNextMenu	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>SetDefaultSearchUrl(<i class="olijf">ByVal </i>bstrUrl <i class="blauw">As</i> <i class="groen">String</i>)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Function </i>EncodeString(<i class="olijf">ByVal </i>bstrValue <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>bstrCharSet <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>bUseUTF8 <i class="blauw">As</i> <i class="groen">Boolean</i>) <i class="blauw">As</i> <i class="groen">String</i>	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Function </i>GetProperty(<i class="olijf">ByVal </i>bPerLocale <i class="blauw">As</i> <i class="groen">Boolean</i>,
+		 <i class="olijf">ByVal </i>bstrName <i class="blauw">As</i> <i class="groen">String</i>) <i class="blauw">As</i> <i class="groen">String</i>	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Function </i>GetSearch<i class="blauw">As</i>sistantURL(<i class="olijf">ByVal </i>bSubstitute <i class="blauw">As</i> <i class="groen">Boolean</i>,
+		 <i class="olijf">ByVal </i>bCustomize <i class="blauw">As</i> <i class="groen">Boolean</i>) <i class="blauw">As</i> <i class="groen">String</i>	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Function </i>IsRestricted(<i class="olijf">ByVal </i>bstrGuid <i class="blauw">As</i> <i class="groen">String</i>) <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        ISearches
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Property </i>Count <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>Get the count of searches	</td></tr>
+        <tr><td><i class="blauw">Property </i>Default <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Get the default search name	</td></tr>
+        <tr><td><i class="blauw">Function </i>_NewEnum <i class="blauw">As</i> <i class="objtag">Unknown	</i></td><td>Enumerates the searches	</td></tr>
+        <tr><td><i class="blauw">Function </i>Item([<i class="olijf">ByVal </i>index]) <i class="blauw">As</i> <i class="objtag">ISearch	</i></td><td>Return the specified search	</td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        IShellFavoritesNameSpace
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Property </i>SubscriptionsEnabled <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Query to see if subscriptions are enabled	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Export	</td><td>method Export	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Import	</td><td>method Import	</td></tr>
+        <tr><td><i class="blauw">Sub </i>InvokeContextMenuCommand(<i class="olijf">ByVal </i>strCommand <i class="blauw">As</i> <i class="groen">String</i>)	</td><td>method InvokeContextMenuCommand	</td></tr>
+        <tr><td><i class="blauw">Sub </i>MoveSelectionDown	</td><td>method MoveSelectionDown	</td></tr>
+        <tr><td><i class="blauw">Sub </i>MoveSelectionTo	</td><td>method MoveSelectionTo	</td></tr>
+        <tr><td><i class="blauw">Sub </i>MoveSelectionUp	</td><td>method MoveSelectionUp	</td></tr>
+        <tr><td><i class="blauw">Sub </i>NewFolder	</td><td>method NewFolder	</td></tr>
+        <tr><td><i class="blauw">Sub </i>ResetSort	</td><td>method ResetSort	</td></tr>
+        <tr><td><i class="blauw">Sub </i>SetRoot(<i class="olijf">ByVal </i>bstrFullPath <i class="blauw">As</i> <i class="groen">String</i>)	</td><td>old, use put_Root() instead	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Synchronize	</td><td>method Synchronize	</td></tr>
+        <tr><td><i class="blauw">Function </i>CreateSubscriptionForSelection <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>method CreateSubscriptionForSelection	</td></tr>
+        <tr><td><i class="blauw">Function </i>DeleteSubscriptionForSelection <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>method DeleteSubscriptionForSelection	</td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        IWebBrowserApp
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Property </i>Application <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Returns the application automation object if accessible, this automation object otherwise..	</td></tr>
+        <tr><td><i class="blauw">Property </i>Busy <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Query to see if something is still in progress.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Container <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Returns the container/parent automation object, if any.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Document <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Returns the active Document automation object, if any.	</td></tr>
+        <tr><td><i class="blauw">Property </i>FullName <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Returns file specification of the application, including path.	</td></tr>
+        <tr><td><i class="blauw">Property </i>FullScreen <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Maximizes window and turns off statusbar, toolbar, menubar, and titlebar.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Height <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>The vertical dimension (pixels) of the frame window/object.	</td></tr>
+        <tr><td><i class="blauw">Property </i>HWND <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>Returns the HWND of the current IE window.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Left <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>The horizontal position (pixels) of the frame window relative to the screen/container.	</td></tr>
+        <tr><td><i class="blauw">Property </i>LocationName <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Gets the short (UI-friendly) name of the URL/file currently viewed.	</td></tr>
+        <tr><td><i class="blauw">Property </i>LocationURL <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Gets the full URL/path currently viewed.	</td></tr>
+        <tr><td><i class="blauw">Property </i>MenuBar <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Controls whether menubar is shown.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Name <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Returns name of the application.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Parent <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Returns the automation object of the container/parent if one exists or this automation object.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Path <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Returns the path to the application.	</td></tr>
+        <tr><td><i class="blauw">Property </i>StatusBar <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Turn on or off the statusbar.	</td></tr>
+        <tr><td><i class="blauw">Property </i>StatusText <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Text of Status window.	</td></tr>
+        <tr><td><i class="blauw">Property </i>ToolBar <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>Controls which toolbar is shown.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Top <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>The vertical position (pixels) of the frame window relative to the screen/container.	</td></tr>
+        <tr><td><i class="blauw">Property </i>TopLevelContainer <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Returns True if this is the top level object.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Type <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Returns the type of the contained document object.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Visible <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Determines whether the application is visible or hidden.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Width <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>The horizontal dimension (pixels) of the frame window/object.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>ClientToWindow(pcx <i class="blauw">As</i> <i class="groen">Long</i>,
+		 pcy <i class="blauw">As</i> <i class="groen">Long</i>)	</pre></td><td>Converts client sizes into window sizes.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>GoBack	</td><td>Navigates to the previous item in the history list.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>GoForward	</td><td>Navigates to the next item in the history list.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>GoHome	</td><td>Go home/start page.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>GoSearch	</td><td>Go Search Page.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>Navigate(<i class="olijf">ByVal </i>URL <i class="blauw">As</i> <i class="groen">String</i>,
+		 [Flags],
+		 [TargetFrameName],
+		 [PostData],
+		 [Headers])	</pre></td><td>Navigates to a URL or file.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>PutProperty(<i class="olijf">ByVal </i><i class="blauw">Property </i><i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>vtValue)	</pre></td><td>Associates vtValue with the name szProperty in the context of the object.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Quit	</td><td>Exits application and closes the open document.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Refresh	</td><td>Refresh the currently viewed page.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Refresh2([Level])	</td><td>Refresh the currently viewed page.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Stop	</td><td>Stops opening a file.	</td></tr>
+        <tr><td><i class="blauw">Function </i>GetProperty(<i class="olijf">ByVal </i><i class="blauw">Property </i><i class="blauw">As</i> <i class="groen">String</i>)	</td><td>Retrieve the Associated value for the property vtValue in the context of the object.	</td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        OLECMDEXECOPT
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Const </i>OLECMDEXECOPT_DODEFAULT = 0	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDEXECOPT_DONTPROMPTUSER = 2	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDEXECOPT_PROMPTUSER = 1	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDEXECOPT_SHOWHELP = 3	</td><td><i class='rood'>(undocumented)</i></td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        OLECMDF
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Const </i>OLECMDF_DEFHIDEONCTXTMENU = 32 (&H20)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDF_ENABLED = 2	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDF_INVISIBLE = 16 (&H10)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDF_LATCHED = 4	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDF_NINCHED = 8	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDF_SUPPORTED = 1	</td><td><i class='rood'>(undocumented)</i></td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        OLECMDID
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Const </i>OLECMDID_ALLOWUILESSSAVEAS = 46 (&H2E)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_CLEARSELECTION = 18 (&H12)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_CLOSE = 45 (&H2D)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_COPY = 12	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_CUT = 11	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_DELETE = 33 (&H21)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_DONTDOWNLOADCSS = 47 (&H2F)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_ENABLE_INTERACTION = 36 (&H24)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_FIND = 32 (&H20)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_GETPRINTTEMPLATE = 52 (&H34)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_GETZOOMRANGE = 20 (&H14)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_HIDETOOLBARS = 24 (&H18)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_HTTPEQUIV = 34 (&H22)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_HTTPEQUIV_DONE = 35 (&H23)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_NEW = 2	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_ONTOOLBARACTIVATED = 31 (&H1F)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_ONUNLOAD = 37 (&H25)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_OPEN = 1	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_PAGESETUP = 8	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_PASTE = 13	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_PASTESPECIAL = 14	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_PREREFRESH = 39 (&H27)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_PRINT = 6	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_PRINT2 = 49 (&H31)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_PRINTPREVIEW = 7	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_PRINTPREVIEW2 = 50 (&H32)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_PROPERTIES = 10	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_PROPERTYBAG2 = 38 (&H26)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_REDO = 16 (&H10)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_REFRESH = 22 (&H16)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_SAVE = 3	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_SAVEAS = 4	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_SAVECOPYAS = 5	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_SELECTALL = 17 (&H11)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_SETDOWNLOADSTATE = 29 (&H1D)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_SETPRINTTEMPLATE = 51 (&H33)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_SETPROGRESSMAX = 25 (&H19)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_SETPROGRESSPOS = 26 (&H1A)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_SETPROGRESSTEXT = 27 (&H1B)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_SETTITLE = 28 (&H1C)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_SHOWFIND = 42 (&H2A)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_SHOWMESSAGE = 41 (&H29)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_SHOWPAGESETUP = 43 (&H2B)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_SHOWPRINT = 44 (&H2C)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_SHOWSCRIPTERROR = 40 (&H28)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_SPELL = 9	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_STOP = 23 (&H17)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_STOPDOWNLOAD = 30 (&H1E)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_UNDO = 15	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_UPDATECOMMANDS = 21 (&H15)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_UPDATEPAGESTATUS = 48 (&H30)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>OLECMDID_ZOOM = 19 (&H13)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        SearchAssistantOC
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Property </i>ASProvider <i class="blauw">As</i> <i class="groen">String</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Property </i>ASSetting <i class="blauw">As</i> <i class="groen">Long</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Property </i>EventHandled <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Property </i>InWebFolder <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Returns true if the current folder is web folder	</td></tr>
+        <tr><td><i class="blauw">Property </i>Search<i class="blauw">As</i>sistantDefault <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>property SearchAssistantDefault	</td></tr>
+        <tr><td><i class="blauw">Property </i>SearchCompanionAvailable <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Property </i>Searches <i class="blauw">As</i> <i class="objtag">ISearches	</i></td><td>Get searches	</td></tr>
+        <tr><td><i class="blauw">Property </i>ShellFeaturesEnabled <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>property ShellFeaturesEnabled	</td></tr>
+        <tr><td><i class="blauw">Property </i>ShowFindPrinter <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Property </i>UseSearchCompanion <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Property </i>Version <i class="blauw">As</i> <i class="groen">Long</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>AddNextMenuItem(<i class="olijf">ByVal </i>bstrText <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>idItem <i class="blauw">As</i> <i class="groen">Long</i>)	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>FindComputer	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>FindFilesOrFolders	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>FindOnWeb	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>FindPeople	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>FindPrinter	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>NavigateToDefaultSearch	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>NETDetectNextNavigate	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>NotifySearchSettingsChanged	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>PutFindText(<i class="olijf">ByVal </i>FindText <i class="blauw">As</i> <i class="groen">String</i>)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>PutProperty(<i class="olijf">ByVal </i>bPerLocale <i class="blauw">As</i> <i class="groen">Boolean</i>,
+		 <i class="olijf">ByVal </i>bstrName <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>bstrValue <i class="blauw">As</i> <i class="groen">String</i>)	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>ResetNextMenu	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>SetDefaultSearchUrl(<i class="olijf">ByVal </i>bstrUrl <i class="blauw">As</i> <i class="groen">String</i>)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Function </i>EncodeString(<i class="olijf">ByVal </i>bstrValue <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>bstrCharSet <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>bUseUTF8 <i class="blauw">As</i> <i class="groen">Boolean</i>) <i class="blauw">As</i> <i class="groen">String</i>	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Function </i>GetProperty(<i class="olijf">ByVal </i>bPerLocale <i class="blauw">As</i> <i class="groen">Boolean</i>,
+		 <i class="olijf">ByVal </i>bstrName <i class="blauw">As</i> <i class="groen">String</i>) <i class="blauw">As</i> <i class="groen">String</i>	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Function </i>GetSearch<i class="blauw">As</i>sistantURL(<i class="olijf">ByVal </i>bSubstitute <i class="blauw">As</i> <i class="groen">Boolean</i>,
+		 <i class="olijf">ByVal </i>bCustomize <i class="blauw">As</i> <i class="groen">Boolean</i>) <i class="blauw">As</i> <i class="groen">String</i>	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Function </i>IsRestricted(<i class="olijf">ByVal </i>bstrGuid <i class="blauw">As</i> <i class="groen">String</i>) <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>OnNewSearch	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>OnNextMenuSelect(<i class="olijf">ByVal </i>idItem <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        SecureLockIconConstants
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Const </i>secureLockIconMixed = 1	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>secureLockIconSecure128Bit = 6	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>secureLockIconSecure40Bit = 3	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>secureLockIconSecure56Bit = 4	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>secureLockIconSecureFortezza = 5	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>secureLockIconSecureUnknownBits = 2	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>secureLockIconUnsecure = 0	</td><td><i class='rood'>(undocumented)</i></td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        ShellBrowserWindow
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Property </i>AddressBar <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Controls whether address bar is shown	</td></tr>
+        <tr><td><i class="blauw">Property </i>Application <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Returns the application automation object if accessible, this automation object otherwise..	</td></tr>
+        <tr><td><i class="blauw">Property </i>Busy <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Query to see if something is still in progress.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Container <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Returns the container/parent automation object, if any.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Document <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Returns the active Document automation object, if any.	</td></tr>
+        <tr><td><i class="blauw">Property </i>FullName <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Returns file specification of the application, including path.	</td></tr>
+        <tr><td><i class="blauw">Property </i>FullScreen <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Maximizes window and turns off statusbar, toolbar, menubar, and titlebar.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Height <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>The vertical dimension (pixels) of the frame window/object.	</td></tr>
+        <tr><td><i class="blauw">Property </i>HWND <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>Returns the HWND of the current IE window.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Left <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>The horizontal position (pixels) of the frame window relative to the screen/container.	</td></tr>
+        <tr><td><i class="blauw">Property </i>LocationName <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Gets the short (UI-friendly) name of the URL/file currently viewed.	</td></tr>
+        <tr><td><i class="blauw">Property </i>LocationURL <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Gets the full URL/path currently viewed.	</td></tr>
+        <tr><td><i class="blauw">Property </i>MenuBar <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Controls whether menubar is shown.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Name <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Returns name of the application.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Offline <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Controls if the frame is offline (read from cache)	</td></tr>
+        <tr><td><i class="blauw">Property </i>Parent <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Returns the automation object of the container/parent if one exists or this automation object.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Path <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Returns the path to the application.	</td></tr>
+        <tr><td><i class="blauw">Property </i>ReadyState <i class="blauw">As</i> <i class="objtag">tagREADYSTATE	</i></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Property </i>Register<i class="blauw">As</i>Browser <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Registers OC as a top-level browser (for target name resolution)	</td></tr>
+        <tr><td><i class="blauw">Property </i>Register<i class="blauw">As</i>DropTarget <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Registers OC as a drop target for navigation	</td></tr>
+        <tr><td><i class="blauw">Property </i>Resizable <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Controls whether the window is resizable	</td></tr>
+        <tr><td><i class="blauw">Property </i>Silent <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Controls if any dialog boxes can be shown	</td></tr>
+        <tr><td><i class="blauw">Property </i>StatusBar <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Turn on or off the statusbar.	</td></tr>
+        <tr><td><i class="blauw">Property </i>StatusText <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Text of Status window.	</td></tr>
+        <tr><td><i class="blauw">Property </i>TheaterMode <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Controls if the browser is in theater mode	</td></tr>
+        <tr><td><i class="blauw">Property </i>ToolBar <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>Controls which toolbar is shown.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Top <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>The vertical position (pixels) of the frame window relative to the screen/container.	</td></tr>
+        <tr><td><i class="blauw">Property </i>TopLevelContainer <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Returns True if this is the top level object.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Type <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Returns the type of the contained document object.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Visible <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Determines whether the application is visible or hidden.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Width <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>The horizontal dimension (pixels) of the frame window/object.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>ClientToWindow(pcx <i class="blauw">As</i> <i class="groen">Long</i>,
+		 pcy <i class="blauw">As</i> <i class="groen">Long</i>)	</pre></td><td>Converts client sizes into window sizes.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>ExecWB(<i class="olijf">ByVal </i>cmdID <i class="blauw">As</i> <i class="objtag"> OLECMDID,
+		</i> <i class="olijf">ByVal </i>cmdexecopt <i class="blauw">As</i> <i class="objtag"> OLECMDEXECOPT,
+		</i> [pvaIn],
+		 [pvaOut])	</pre></td><td>IOleCommandTarget::Exec	</td></tr>
+        <tr><td><i class="blauw">Sub </i>GoBack	</td><td>Navigates to the previous item in the history list.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>GoForward	</td><td>Navigates to the next item in the history list.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>GoHome	</td><td>Go home/start page.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>GoSearch	</td><td>Go Search Page.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>Navigate(<i class="olijf">ByVal </i>URL <i class="blauw">As</i> <i class="groen">String</i>,
+		 [Flags],
+		 [TargetFrameName],
+		 [PostData],
+		 [Headers])	</pre></td><td>Navigates to a URL or file.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>Navigate2(URL,
+		 [Flags],
+		 [TargetFrameName],
+		 [PostData],
+		 [Headers])	</pre></td><td>Navigates to a URL or file or pidl.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>PutProperty(<i class="olijf">ByVal </i><i class="blauw">Property </i><i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>vtValue)	</pre></td><td>Associates vtValue with the name szProperty in the context of the object.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Quit	</td><td>Exits application and closes the open document.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Refresh	</td><td>Refresh the currently viewed page.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Refresh2([Level])	</td><td>Refresh the currently viewed page.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>ShowBrowserBar(pvaClsid,
+		 [pvarShow],
+		 [pvarSize])	</pre></td><td>Set BrowserBar to Clsid	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Stop	</td><td>Stops opening a file.	</td></tr>
+        <tr><td><i class="blauw">Function </i>GetProperty(<i class="olijf">ByVal </i><i class="blauw">Property </i><i class="blauw">As</i> <i class="groen">String</i>)	</td><td>Retrieve the Associated value for the property vtValue in the context of the object.	</td></tr>
+        <tr><td><i class="blauw">Function </i>QueryStatusWB(<i class="olijf">ByVal </i>cmdID <i class="blauw">As</i> <i class="objtag"> OLECMDID)</i> <i class="blauw">As</i> <i class="objtag">OLECMDF	</i></td><td>IOleCommandTarget::QueryStatus	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>BeforeNavigate2(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag"> Object,
+		</i> URL,
+		 Flags,
+		 TargetFrameName,
+		 PostData,
+		 Headers,
+		 Cancel <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>Fired before navigate occurs in the given WebBrowser (window or frameset element). The processing of this navigation may be modified.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>ClientToHostWindow(CX <i class="blauw">As</i> <i class="groen">Long</i>,
+		 CY <i class="blauw">As</i> <i class="groen">Long</i>)	</pre></td><td>Fired to request client sizes be converted to host window sizes	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>CommandStateChange(<i class="olijf">ByVal </i>Command <i class="blauw">As</i> <i class="groen">Long</i>,
+		 <i class="olijf">ByVal </i>Enable <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>The enabled state of a command changed.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>DocumentComplete(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag"> Object,
+		</i> URL)	</pre></td><td>Fired when the document being navigated to reaches ReadyState_Complete.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>DownloadBegin	</td><td>Download of a page started.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>DownloadComplete	</td><td>Download of page complete.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>FileDownload(Cancel <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired to indicate the File Download dialog is opening	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>NavigateComplete2(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag"> Object,
+		</i> URL)	</pre></td><td>Fired when the document being navigated to becomes visible and enters the navigation stack.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>NavigateError(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag"> Object,
+		</i> URL,
+		 Frame,
+		 StatusCode,
+		 Cancel <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>Fired when a binding error occurs (window or frameset element).	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>NewWindow2(ppDisp <i class="blauw">As</i> <i class="objtag"> Object,
+		</i> Cancel <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>A new, hidden, non-navigated WebBrowser window is needed.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnFullScreen(<i class="olijf">ByVal </i>FullScreen <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when fullscreen mode should be on/off	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnMenuBar(<i class="olijf">ByVal </i>MenuBar <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when the menubar should be shown/hidden	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnQuit	</td><td>Fired when application is quiting.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnStatusBar(<i class="olijf">ByVal </i>StatusBar <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when the statusbar should be shown/hidden	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnTheaterMode(<i class="olijf">ByVal </i>TheaterMode <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when theater mode should be on/off	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnToolBar(<i class="olijf">ByVal </i>ToolBar <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when the toolbar  should be shown/hidden	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnVisible(<i class="olijf">ByVal </i>Visible <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when the window should be shown/hidden	</td></tr>
+        <tr><td><i class="blauw">Sub </i>PrintTemplateInstantiation(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag">Object)	</i></td><td>Fired when a print template is instantiated.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>PrintTemplateTeardown(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag">Object)	</i></td><td>Fired when a print template destroyed.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>PrivacyImpactedStateChange(<i class="olijf">ByVal </i>bImpacted <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when the global privacy impacted state changes	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>ProgressChange(<i class="olijf">ByVal </i>Progress <i class="blauw">As</i> <i class="groen">Long</i>,
+		 <i class="olijf">ByVal </i>ProgressMax <i class="blauw">As</i> <i class="groen">Long</i>)	</pre></td><td>Fired when download progress is updated.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>PropertyChange(<i class="olijf">ByVal </i>sz<i class="blauw">Property </i><i class="blauw">As</i> <i class="groen">String</i>)	</td><td>Fired when the PutProperty method has been called.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>SetSecureLockIcon(<i class="olijf">ByVal </i>SecureLockIcon <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td>Fired to indicate the security level of the current web page contents	</td></tr>
+        <tr><td><i class="blauw">Sub </i>StatusTextChange(<i class="olijf">ByVal </i>Text <i class="blauw">As</i> <i class="groen">String</i>)	</td><td>Statusbar text changed.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>TitleChange(<i class="olijf">ByVal </i>Text <i class="blauw">As</i> <i class="groen">String</i>)	</td><td>Document title changed.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>UpdatePageStatus(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag"> Object,
+		</i> nPage,
+		 fDone)	</pre></td><td>Fired when a page is spooled. When it is fired can be changed by a custom template.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>WindowClosing(<i class="olijf">ByVal </i>IsChildWindow <i class="blauw">As</i> <i class="groen">Boolean</i>,
+		 Cancel <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>Fired when the WebBrowser is about to be closed by script	</td></tr>
+        <tr><td><i class="blauw">Sub </i>WindowSetHeight(<i class="olijf">ByVal </i>Height <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td>Fired when the host window should change its height	</td></tr>
+        <tr><td><i class="blauw">Sub </i>WindowSetLeft(<i class="olijf">ByVal </i>Left <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td>Fired when the host window should change its Left coordinate	</td></tr>
+        <tr><td><i class="blauw">Sub </i>WindowSetResizable(<i class="olijf">ByVal </i>Resizable <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when the host window should allow/disallow resizing	</td></tr>
+        <tr><td><i class="blauw">Sub </i>WindowSetTop(<i class="olijf">ByVal </i>Top <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td>Fired when the host window should change its Top coordinate	</td></tr>
+        <tr><td><i class="blauw">Sub </i>WindowSetWidth(<i class="olijf">ByVal </i>Width <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td>Fired when the host window should change its width	</td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        ShellNameSpace
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Property </i>Columns <i class="blauw">As</i> <i class="groen">String</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Property </i>CountViewTypes <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>number of view types	</td></tr>
+        <tr><td><i class="blauw">Property </i>Depth <i class="blauw">As</i> <i class="groen">Long</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Property </i>EnumOptions <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>options 	</td></tr>
+        <tr><td><i class="blauw">Property </i>Flags <i class="blauw">As</i> <i class="groen">Long</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Property </i>Mode <i class="blauw">As</i> <i class="objtag">Empty	</i></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Property </i>Root	</td><td>get the root item	</td></tr>
+        <tr><td><i class="blauw">Property </i>SelectedItem <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>get the selected item	</td></tr>
+        <tr><td><i class="blauw">Property </i>SubscriptionsEnabled <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Query to see if subscriptions are enabled	</td></tr>
+        <tr><td><i class="blauw">Property </i>TVFlags <i class="blauw">As</i> <i class="groen">Long</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>Expand(<i class="olijf">ByVal </i>var,
+		 <i class="olijf">ByVal </i>iDepth <i class="blauw">As</i> <i class="groen">Long</i>)	</pre></td><td>expands item specified depth	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Export	</td><td>method Export	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Import	</td><td>method Import	</td></tr>
+        <tr><td><i class="blauw">Sub </i>InvokeContextMenuCommand(<i class="olijf">ByVal </i>strCommand <i class="blauw">As</i> <i class="groen">String</i>)	</td><td>method InvokeContextMenuCommand	</td></tr>
+        <tr><td><i class="blauw">Sub </i>MoveSelectionDown	</td><td>method MoveSelectionDown	</td></tr>
+        <tr><td><i class="blauw">Sub </i>MoveSelectionTo	</td><td>method MoveSelectionTo	</td></tr>
+        <tr><td><i class="blauw">Sub </i>MoveSelectionUp	</td><td>method MoveSelectionUp	</td></tr>
+        <tr><td><i class="blauw">Sub </i>NewFolder	</td><td>method NewFolder	</td></tr>
+        <tr><td><i class="blauw">Sub </i>ResetSort	</td><td>method ResetSort	</td></tr>
+        <tr><td><i class="blauw">Sub </i>SetRoot(<i class="olijf">ByVal </i>bstrFullPath <i class="blauw">As</i> <i class="groen">String</i>)	</td><td>old, use put_Root() instead	</td></tr>
+        <tr><td><i class="blauw">Sub </i>SetViewType(<i class="olijf">ByVal </i>iType <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td>set view type	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Synchronize	</td><td>method Synchronize	</td></tr>
+        <tr><td><i class="blauw">Sub </i>UnselectAll	</td><td>unselects all items	</td></tr>
+        <tr><td><i class="blauw">Function </i>CreateSubscriptionForSelection <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>method CreateSubscriptionForSelection	</td></tr>
+        <tr><td><i class="blauw">Function </i>DeleteSubscriptionForSelection <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>method DeleteSubscriptionForSelection	</td></tr>
+        <tr><td><i class="blauw">Function </i>SelectedItems <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>collection of selected items	</td></tr>
+        <tr><td><i class="blauw">Sub </i>DoubleClick	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>FavoritesSelectionChange(<i class="olijf">ByVal </i>cItems <i class="blauw">As</i> <i class="groen">Long</i>,
+		 <i class="olijf">ByVal </i>hItem <i class="blauw">As</i> <i class="groen">Long</i>,
+		 <i class="olijf">ByVal </i>strName <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>strUrl <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>cVisits <i class="blauw">As</i> <i class="groen">Long</i>,
+		 <i class="olijf">ByVal </i>strDate <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>fAvailableOffline <i class="blauw">As</i> <i class="groen">Long</i>)	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>Initialized	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>SelectionChange	</td><td><i class='rood'>(undocumented)</i></td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        ShellUIHelper
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Sub </i>AddChannel(<i class="olijf">ByVal </i>URL <i class="blauw">As</i> <i class="groen">String</i>)	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>AddDesktopComponent(<i class="olijf">ByVal </i>URL <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>Type <i class="blauw">As</i> <i class="groen">String</i>,
+		 [Left],
+		 [Top],
+		 [Width],
+		 [Height])	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>AddFavorite(<i class="olijf">ByVal </i>URL <i class="blauw">As</i> <i class="groen">String</i>,
+		 [Title])	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>AutoCompleteAttach([Reserved])	</td><td>	<i class="rood">(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>AutoCompleteSaveForm([Form])	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>AutoScan(<i class="olijf">ByVal </i>strSearch <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>strFailureUrl <i class="blauw">As</i> <i class="groen">String</i>,
+		 [pvarTargetFrame])	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>ImportExportFavorites(<i class="olijf">ByVal </i>fImport <i class="blauw">As</i> <i class="groen">Boolean</i>,
+		 <i class="olijf">ByVal </i>strImpExpPath <i class="blauw">As</i> <i class="groen">String</i>)	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>NavigateAndFind(<i class="olijf">ByVal </i>URL <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>strQuery <i class="blauw">As</i> <i class="groen">String</i>,
+		 varTargetFrame)	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>RefreshOfflineDesktop	</td><td>	<i class="rood">(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>ResetFirstBootMode	</td><td>	<i class="rood">(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>ResetSafeMode	</td><td>	<i class="rood">(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Function </i>IsSubscribed(<i class="olijf">ByVal </i>URL <i class="blauw">As</i> <i class="groen">String</i>) <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Function </i>ShowBrowserUI(<i class="olijf">ByVal </i>bstrName <i class="blauw">As</i> <i class="groen">String</i>,
+		 pvarIn)	</pre></td><td><i class='rood'>(undocumented)</i></td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        ShellWindowFindWindowOptions
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Const </i>SWFO_COOKIEPASSED = 4	</td><td>Cookie Passed	</td></tr>
+        <tr><td><i class="blauw">Const </i>SWFO_INCLUDEPENDING = 2	</td><td>Include Pending	</td></tr>
+        <tr><td><i class="blauw">Const </i>SWFO_NEEDDISPATCH = 1	</td><td>Need Dispatch	</td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        ShellWindows
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Property </i>Count <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>Get count of open Shell windows	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>OnActivated(<i class="olijf">ByVal </i>lCookie <i class="blauw">As</i> <i class="groen">Long</i>,
+		 <i class="olijf">ByVal </i>fActive <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>Notifies the activation	<i class="rood">(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>OnCreated(<i class="olijf">ByVal </i>lCookie <i class="blauw">As</i> <i class="groen">Long</i>,
+		 <i class="olijf">ByVal </i>punk <i class="blauw">As</i> <i class="objtag">Unknown)	</i></pre></td><td>Notifies on creation and frame name set	<i class="rood">(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>OnNavigate(<i class="olijf">ByVal </i>lCookie <i class="blauw">As</i> <i class="groen">Long</i>,
+		 pvarloc)	</pre></td><td>Notifies the new location	<i class="rood">(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>ProcessAttachDetach(<i class="olijf">ByVal </i>fAttach <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Used by IExplore to register different processes	<i class="rood">(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>Register(<i class="olijf">ByVal </i>pid <i class="blauw">As</i> <i class="objtag"> Object,
+		</i> <i class="olijf">ByVal </i>HWND <i class="blauw">As</i> <i class="groen">Long</i>,
+		 <i class="olijf">ByVal </i>swClass <i class="blauw">As</i> <i class="groen">Long</i>,
+		 plCookie <i class="blauw">As</i> <i class="groen">Long</i>)	</pre></td><td>Register a window with the list	<i class="rood">(undocumented)</i></td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>RegisterPending(<i class="olijf">ByVal </i>lThreadId <i class="blauw">As</i> <i class="groen">Long</i>,
+		 pvarloc,
+		 pvarlocRoot,
+		 <i class="olijf">ByVal </i>swClass <i class="blauw">As</i> <i class="groen">Long</i>,
+		 plCookie <i class="blauw">As</i> <i class="groen">Long</i>)	</pre></td><td>Register a pending open with the list	<i class="rood">(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Sub </i>Revoke(<i class="olijf">ByVal </i>lCookie <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td>Remove a window from the list	<i class="rood">(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Function </i>_NewEnum <i class="blauw">As</i> <i class="objtag">Unknown	</i></td><td>Enumerates the figures	</td></tr>
+        <tr><td><pre><i class="blauw">Function </i>FindWindowSW(pvarloc,
+		 pvarlocRoot,
+		 <i class="olijf">ByVal </i>swClass <i class="blauw">As</i> <i class="groen">Long</i>,
+		 pHWND <i class="blauw">As</i> <i class="groen">Long</i>,
+		 <i class="olijf">ByVal </i>swfwOptions <i class="blauw">As</i> <i class="groen">Long</i>) <i class="blauw">As</i> <i class="objtag">Object	</i></pre></td><td>Find the window based on the location	<i class="rood">(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Function </i>Item([<i class="olijf">ByVal </i>index]) <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Return the shell window for the given index	</td></tr>
+        <tr><td><i class="blauw">Sub </i>WindowRegistered(<i class="olijf">ByVal </i>lCookie <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td>A new window was registered.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>WindowRevoked(<i class="olijf">ByVal </i>lCookie <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td>A new window was revoked.	</td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        ShellWindowTypeConstants
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Const </i>SWC_3RDPARTY = 2	</td><td>3rd Party Browsers	</td></tr>
+        <tr><td><i class="blauw">Const </i>SWC_BROWSER = 1	</td><td>Various Browsing Windows	</td></tr>
+        <tr><td><i class="blauw">Const </i>SWC_CALLBACK = 4	</td><td>Creation Callback	</td></tr>
+        <tr><td><i class="blauw">Const </i>SWC_EXPLORER = 0	</td><td>Explorer	</td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        tagREADYSTATE
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Const </i>READYSTATE_COMPLETE = 4	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>READYSTATE_INTERACTIVE = 3	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>READYSTATE_LOADED = 2	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>READYSTATE_LOADING = 1	</td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Const </i>READYSTATE_UNINITIALIZED = 0	</td><td><i class='rood'>(undocumented)</i></td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        WebBrowser
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Property </i>AddressBar <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Controls whether address bar is shown	</td></tr>
+        <tr><td><i class="blauw">Property </i>Application <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Returns the application automation object if accessible, this automation object otherwise..	</td></tr>
+        <tr><td><i class="blauw">Property </i>Busy <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Query to see if something is still in progress.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Container <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Returns the container/parent automation object, if any.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Document <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Returns the active Document automation object, if any.	</td></tr>
+        <tr><td><i class="blauw">Property </i>FullName <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Returns file specification of the application, including path.	</td></tr>
+        <tr><td><i class="blauw">Property </i>FullScreen <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Maximizes window and turns off statusbar, toolbar, menubar, and titlebar.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Height <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>The vertical dimension (pixels) of the frame window/object.	</td></tr>
+        <tr><td><i class="blauw">Property </i>HWND <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>Returns the HWND of the current IE window.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Left <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>The horizontal position (pixels) of the frame window relative to the screen/container.	</td></tr>
+        <tr><td><i class="blauw">Property </i>LocationName <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Gets the short (UI-friendly) name of the URL/file currently viewed.	</td></tr>
+        <tr><td><i class="blauw">Property </i>LocationURL <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Gets the full URL/path currently viewed.	</td></tr>
+        <tr><td><i class="blauw">Property </i>MenuBar <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Controls whether menubar is shown.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Name <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Returns name of the application.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Offline <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Controls if the frame is offline (read from cache)	</td></tr>
+        <tr><td><i class="blauw">Property </i>Parent <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Returns the automation object of the container/parent if one exists or this automation object.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Path <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Returns the path to the application.	</td></tr>
+        <tr><td><i class="blauw">Property </i>ReadyState <i class="blauw">As</i> <i class="objtag">tagREADYSTATE	</i></td><td><i class='rood'>(undocumented)</i></td></tr>
+        <tr><td><i class="blauw">Property </i>Register<i class="blauw">As</i>Browser <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Registers OC as a top-level browser (for target name resolution)	</td></tr>
+        <tr><td><i class="blauw">Property </i>Register<i class="blauw">As</i>DropTarget <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Registers OC as a drop target for navigation	</td></tr>
+        <tr><td><i class="blauw">Property </i>Resizable <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Controls whether the window is resizable	</td></tr>
+        <tr><td><i class="blauw">Property </i>Silent <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Controls if any dialog boxes can be shown	</td></tr>
+        <tr><td><i class="blauw">Property </i>StatusBar <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Turn on or off the statusbar.	</td></tr>
+        <tr><td><i class="blauw">Property </i>StatusText <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Text of Status window.	</td></tr>
+        <tr><td><i class="blauw">Property </i>TheaterMode <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Controls if the browser is in theater mode	</td></tr>
+        <tr><td><i class="blauw">Property </i>ToolBar <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>Controls which toolbar is shown.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Top <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>The vertical position (pixels) of the frame window relative to the screen/container.	</td></tr>
+        <tr><td><i class="blauw">Property </i>TopLevelContainer <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Returns True if this is the top level object.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Type <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Returns the type of the contained document object.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Visible <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Determines whether the application is visible or hidden.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Width <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>The horizontal dimension (pixels) of the frame window/object.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>ClientToWindow(pcx <i class="blauw">As</i> <i class="groen">Long</i>,
+		 pcy <i class="blauw">As</i> <i class="groen">Long</i>)	</pre></td><td>Converts client sizes into window sizes.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>ExecWB(<i class="olijf">ByVal </i>cmdID <i class="blauw">As</i> <i class="objtag"> OLECMDID,
+		</i> <i class="olijf">ByVal </i>cmdexecopt <i class="blauw">As</i> <i class="objtag"> OLECMDEXECOPT,
+		</i> [pvaIn],
+		 [pvaOut])	</pre></td><td>IOleCommandTarget::Exec	</td></tr>
+        <tr><td><i class="blauw">Sub </i>GoBack	</td><td>Navigates to the previous item in the history list.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>GoForward	</td><td>Navigates to the next item in the history list.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>GoHome	</td><td>Go home/start page.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>GoSearch	</td><td>Go Search Page.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>Navigate(<i class="olijf">ByVal </i>URL <i class="blauw">As</i> <i class="groen">String</i>,
+		 [Flags],
+		 [TargetFrameName],
+		 [PostData],
+		 [Headers])	</pre></td><td>Navigates to a URL or file.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>Navigate2(URL,
+		 [Flags],
+		 [TargetFrameName],
+		 [PostData],
+		 [Headers])	</pre></td><td>Navigates to a URL or file or pidl.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>PutProperty(<i class="olijf">ByVal </i><i class="blauw">Property </i><i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>vtValue)	</pre></td><td>Associates vtValue with the name szProperty in the context of the object.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Quit	</td><td>Exits application and closes the open document.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Refresh	</td><td>Refresh the currently viewed page.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Refresh2([Level])	</td><td>Refresh the currently viewed page.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>ShowBrowserBar(pvaClsid,
+		 [pvarShow],
+		 [pvarSize])	</pre></td><td>Set BrowserBar to Clsid	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Stop	</td><td>Stops opening a file.	</td></tr>
+        <tr><td><i class="blauw">Function </i>GetProperty(<i class="olijf">ByVal </i><i class="blauw">Property </i><i class="blauw">As</i> <i class="groen">String</i>)	</td><td>Retrieve the Associated value for the property vtValue in the context of the object.	</td></tr>
+        <tr><td><i class="blauw">Function </i>QueryStatusWB(<i class="olijf">ByVal </i>cmdID <i class="blauw">As</i> <i class="objtag"> OLECMDID)</i> <i class="blauw">As</i> <i class="objtag">OLECMDF	</i></td><td>IOleCommandTarget::QueryStatus	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>BeforeNavigate2(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag"> Object,
+		</i> URL,
+		 Flags,
+		 TargetFrameName,
+		 PostData,
+		 Headers,
+		 Cancel <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>Fired before navigate occurs in the given WebBrowser (window or frameset element). The processing of this navigation may be modified.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>ClientToHostWindow(CX <i class="blauw">As</i> <i class="groen">Long</i>,
+		 CY <i class="blauw">As</i> <i class="groen">Long</i>)	</pre></td><td>Fired to request client sizes be converted to host window sizes	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>CommandStateChange(<i class="olijf">ByVal </i>Command <i class="blauw">As</i> <i class="groen">Long</i>,
+		 <i class="olijf">ByVal </i>Enable <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>The enabled state of a command changed.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>DocumentComplete(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag"> Object,
+		</i> URL)	</pre></td><td>Fired when the document being navigated to reaches ReadyState_Complete.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>DownloadBegin	</td><td>Download of a page started.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>DownloadComplete	</td><td>Download of page complete.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>FileDownload(Cancel <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired to indicate the File Download dialog is opening	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>NavigateComplete2(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag"> Object,
+		</i> URL)	</pre></td><td>Fired when the document being navigated to becomes visible and enters the navigation stack.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>NavigateError(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag"> Object,
+		</i> URL,
+		 Frame,
+		 StatusCode,
+		 Cancel <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>Fired when a binding error occurs (window or frameset element).	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>NewWindow2(ppDisp <i class="blauw">As</i> <i class="objtag"> Object,
+		</i> Cancel <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>A new, hidden, non-navigated WebBrowser window is needed.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnFullScreen(<i class="olijf">ByVal </i>FullScreen <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when fullscreen mode should be on/off	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnMenuBar(<i class="olijf">ByVal </i>MenuBar <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when the menubar should be shown/hidden	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnQuit	</td><td>Fired when application is quiting.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnStatusBar(<i class="olijf">ByVal </i>StatusBar <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when the statusbar should be shown/hidden	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnTheaterMode(<i class="olijf">ByVal </i>TheaterMode <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when theater mode should be on/off	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnToolBar(<i class="olijf">ByVal </i>ToolBar <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when the toolbar  should be shown/hidden	</td></tr>
+        <tr><td><i class="blauw">Sub </i>OnVisible(<i class="olijf">ByVal </i>Visible <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when the window should be shown/hidden	</td></tr>
+        <tr><td><i class="blauw">Sub </i>PrintTemplateInstantiation(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag">Object)	</i></td><td>Fired when a print template is instantiated.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>PrintTemplateTeardown(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag">Object)	</i></td><td>Fired when a print template destroyed.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>PrivacyImpactedStateChange(<i class="olijf">ByVal </i>bImpacted <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when the global privacy impacted state changes	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>ProgressChange(<i class="olijf">ByVal </i>Progress <i class="blauw">As</i> <i class="groen">Long</i>,
+		 <i class="olijf">ByVal </i>ProgressMax <i class="blauw">As</i> <i class="groen">Long</i>)	</pre></td><td>Fired when download progress is updated.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>PropertyChange(<i class="olijf">ByVal </i>sz<i class="blauw">Property </i><i class="blauw">As</i> <i class="groen">String</i>)	</td><td>Fired when the PutProperty method has been called.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>SetSecureLockIcon(<i class="olijf">ByVal </i>SecureLockIcon <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td>Fired to indicate the security level of the current web page contents	</td></tr>
+        <tr><td><i class="blauw">Sub </i>StatusTextChange(<i class="olijf">ByVal </i>Text <i class="blauw">As</i> <i class="groen">String</i>)	</td><td>Statusbar text changed.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>TitleChange(<i class="olijf">ByVal </i>Text <i class="blauw">As</i> <i class="groen">String</i>)	</td><td>Document title changed.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>UpdatePageStatus(<i class="olijf">ByVal </i>pDisp <i class="blauw">As</i> <i class="objtag"> Object,
+		</i> nPage,
+		 fDone)	</pre></td><td>Fired when a page is spooled. When it is fired can be changed by a custom template.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>WindowClosing(<i class="olijf">ByVal </i>IsChildWindow <i class="blauw">As</i> <i class="groen">Boolean</i>,
+		 Cancel <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>Fired when the WebBrowser is about to be closed by script	</td></tr>
+        <tr><td><i class="blauw">Sub </i>WindowSetHeight(<i class="olijf">ByVal </i>Height <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td>Fired when the host window should change its height	</td></tr>
+        <tr><td><i class="blauw">Sub </i>WindowSetLeft(<i class="olijf">ByVal </i>Left <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td>Fired when the host window should change its Left coordinate	</td></tr>
+        <tr><td><i class="blauw">Sub </i>WindowSetResizable(<i class="olijf">ByVal </i>Resizable <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when the host window should allow/disallow resizing	</td></tr>
+        <tr><td><i class="blauw">Sub </i>WindowSetTop(<i class="olijf">ByVal </i>Top <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td>Fired when the host window should change its Top coordinate	</td></tr>
+        <tr><td><i class="blauw">Sub </i>WindowSetWidth(<i class="olijf">ByVal </i>Width <i class="blauw">As</i> <i class="groen">Long</i>)	</td><td>Fired when the host window should change its width	</td></tr>
+    </table><br>
+    <table width='100%' bgcolor='#F0F8FF' border='1' bordercolor='#483D8B'>
+      <th width='65%' align='left'>
+        WebBrowser_V1
+      </th>
+      <th width='35%'>
+        Omschrijving
+      </th>
+        <tr><td><i class="blauw">Property </i>Application <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Returns the application automation object if accessible, this automation object otherwise..	</td></tr>
+        <tr><td><i class="blauw">Property </i>Busy <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Query to see if something is still in progress.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Container <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Returns the container/parent automation object, if any.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Document <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Returns the active Document automation object, if any.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Height <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>The vertical dimension (pixels) of the frame window/object.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Left <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>The horizontal position (pixels) of the frame window relative to the screen/container.	</td></tr>
+        <tr><td><i class="blauw">Property </i>LocationName <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Gets the short (UI-friendly) name of the URL/file currently viewed.	</td></tr>
+        <tr><td><i class="blauw">Property </i>LocationURL <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Gets the full URL/path currently viewed.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Parent <i class="blauw">As</i> <i class="objtag">Object	</i></td><td>Returns the automation object of the container/parent if one exists or this automation object.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Top <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>The vertical position (pixels) of the frame window relative to the screen/container.	</td></tr>
+        <tr><td><i class="blauw">Property </i>TopLevelContainer <i class="blauw">As</i> <i class="groen">Boolean</i>	</td><td>Returns True if this is the top level object.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Type <i class="blauw">As</i> <i class="groen">String</i>	</td><td>Returns the type of the contained document object.	</td></tr>
+        <tr><td><i class="blauw">Property </i>Width <i class="blauw">As</i> <i class="groen">Long</i>	</td><td>The horizontal dimension (pixels) of the frame window/object.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>GoBack	</td><td>Navigates to the previous item in the history list.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>GoForward	</td><td>Navigates to the next item in the history list.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>GoHome	</td><td>Go home/start page.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>GoSearch	</td><td>Go Search Page.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>Navigate(<i class="olijf">ByVal </i>URL <i class="blauw">As</i> <i class="groen">String</i>,
+		 [Flags],
+		 [TargetFrameName],
+		 [PostData],
+		 [Headers])	</pre></td><td>Navigates to a URL or file.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Refresh	</td><td>Refresh the currently viewed page.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Refresh2([Level])	</td><td>Refresh the currently viewed page.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Stop	</td><td>Stops opening a file.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>BeforeNavigate(<i class="olijf">ByVal </i>URL <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>Flags <i class="blauw">As</i> <i class="groen">Long</i>,
+		 <i class="olijf">ByVal </i>TargetFrameName <i class="blauw">As</i> <i class="groen">String</i>,
+		 PostData,
+		 <i class="olijf">ByVal </i>Headers <i class="blauw">As</i> <i class="groen">String</i>,
+		 Cancel <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>Fired when a new hyperlink is being navigated to.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>CommandStateChange(<i class="olijf">ByVal </i>Command <i class="blauw">As</i> <i class="groen">Long</i>,
+		 <i class="olijf">ByVal </i>Enable <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>The enabled state of a command changed	</td></tr>
+        <tr><td><i class="blauw">Sub </i>DownloadBegin	</td><td>Download of a page started.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>DownloadComplete	</td><td>Download of page complete.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>FrameBeforeNavigate(<i class="olijf">ByVal </i>URL <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>Flags <i class="blauw">As</i> <i class="groen">Long</i>,
+		 <i class="olijf">ByVal </i>TargetFrameName <i class="blauw">As</i> <i class="groen">String</i>,
+		 PostData,
+		 <i class="olijf">ByVal </i>Headers <i class="blauw">As</i> <i class="groen">String</i>,
+		 Cancel <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>Fired when a new hyperlink is being navigated to in a frame.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>FrameNavigateComplete(<i class="olijf">ByVal </i>URL <i class="blauw">As</i> <i class="groen">String</i>)	</td><td>Fired when a new hyperlink is being navigated to in a frame.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>FrameNewWindow(<i class="olijf">ByVal </i>URL <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>Flags <i class="blauw">As</i> <i class="groen">Long</i>,
+		 <i class="olijf">ByVal </i>TargetFrameName <i class="blauw">As</i> <i class="groen">String</i>,
+		 PostData,
+		 <i class="olijf">ByVal </i>Headers <i class="blauw">As</i> <i class="groen">String</i>,
+		 Processed <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>Fired when a new window should be created.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>NavigateComplete(<i class="olijf">ByVal </i>URL <i class="blauw">As</i> <i class="groen">String</i>)	</td><td>Fired when the document being navigated to becomes visible and enters the navigation stack.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>NewWindow(<i class="olijf">ByVal </i>URL <i class="blauw">As</i> <i class="groen">String</i>,
+		 <i class="olijf">ByVal </i>Flags <i class="blauw">As</i> <i class="groen">Long</i>,
+		 <i class="olijf">ByVal </i>TargetFrameName <i class="blauw">As</i> <i class="groen">String</i>,
+		 PostData,
+		 <i class="olijf">ByVal </i>Headers <i class="blauw">As</i> <i class="groen">String</i>,
+		 Processed <i class="blauw">As</i> <i class="groen">Boolean</i>)	</pre></td><td>Fired when a new window should be created.	</td></tr>
+        <tr><td><pre><i class="blauw">Sub </i>ProgressChange(<i class="olijf">ByVal </i>Progress <i class="blauw">As</i> <i class="groen">Long</i>,
+		 <i class="olijf">ByVal </i>ProgressMax <i class="blauw">As</i> <i class="groen">Long</i>)	</pre></td><td>Fired when download progress is updated.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>PropertyChange(<i class="olijf">ByVal </i><i class="blauw">Property </i><i class="blauw">As</i> <i class="groen">String</i>)	</td><td>Fired when the PutProperty method has been called.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>Quit(Cancel <i class="blauw">As</i> <i class="groen">Boolean</i>)	</td><td>Fired when application is quiting.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>StatusTextChange(<i class="olijf">ByVal </i>Text <i class="blauw">As</i> <i class="groen">String</i>)	</td><td>Statusbar text changed.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>TitleChange(<i class="olijf">ByVal </i>Text <i class="blauw">As</i> <i class="groen">String</i>)	</td><td>Document title changed.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>WindowActivate	</td><td>Fired when window has been activated.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>WindowMove	</td><td>Fired when window has been moved.	</td></tr>
+        <tr><td><i class="blauw">Sub </i>WindowResize	</td><td>Fired when window has been sized.	</td></tr>
+    </table><br>
+    </center>
+  </body>
+<html>
